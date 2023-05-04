@@ -4,7 +4,15 @@
     <title>JoyfulGoods - Coming Soon!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"> 
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon"> 
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdKBOElAAAAAJMoBevAkU9EbPV62YFRXnrF3wNY"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6LdKBOElAAAAAJMoBevAkU9EbPV62YFRXnrF3wNY', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
     </head>
   <body>
     <div class="wrapper">
